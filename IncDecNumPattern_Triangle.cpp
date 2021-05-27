@@ -6,10 +6,14 @@
 #include <iostream>
 using namespace std;
 
+
+
+
 int main(){
     //ask the user how many rows i have to print
     int n;
     cin>>n;
+
     //repeat some task for n rows :we use loop
     int row =1;  //we are printing first row at the start
     while(row<=n){
@@ -20,8 +24,9 @@ int main(){
             cout << " ";
             space=space+1;
         }
+
         //print increasing numbers
-        int no=row;
+        int no=row;//start value is =row
         //i is storing total numbers printed till now
         int i=1;
         while(i<=row){
@@ -29,8 +34,9 @@ int main(){
             no=no+1;
             i=i+1;
         }
+
         //print decreasing number
-        no=2*row-2;
+        no=2*row-2;//defining the starting value of decreasing num
         i=1;
         while(i<=row-1){
             cout << no ;
@@ -41,4 +47,7 @@ int main(){
         cout << endl;
         //cout << '\n';
     }
+
+
+
 }
