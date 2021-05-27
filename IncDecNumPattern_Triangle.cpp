@@ -1,3 +1,8 @@
+/*Input-N=3
+  output  1
+         232
+        34543
+*/
 #include <iostream>
 using namespace std;
 
